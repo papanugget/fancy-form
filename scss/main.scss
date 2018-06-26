@@ -16,6 +16,12 @@ h1.logo {
     font-family: 'Pacifico', cursive;
     font-size: 4em;
 }
+h1.end {
+    position: relative;
+    color: #fff;
+    opacity: 0;
+    transition: 0.8s ease-in-out;
+}
 #container {
     height: 100vh;
     display: flex;
@@ -117,6 +123,11 @@ h1.logo {
     height: $progress-height;
     width: 0;
     transition: width 0.6s ease-in-out;
+}
+.close {
+    #next-btn, #prev-btn {
+        color: #fff;
+    }
 }
 .error {
     #input-progress {
